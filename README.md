@@ -16,6 +16,23 @@ Android Signature Pad is an Android library for drawing smooth signatures. It us
 
 Latest version of the library can be found on Maven Central.
 
+## Install the wroking version
+Add it in your root build.gradle at the end of repositories:
+
+	```allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}```
+
+Step 2. Add the dependency
+
+	```dependencies {
+	        implementation 'com.github.loanpal-sawbridge:android-signaturepad:-SNAPSHOT'
+	}```
+
+
 ### For Gradle users
 
 Open your `build.gradle` and make sure that Maven Central repository is declared into `repositories` section:
